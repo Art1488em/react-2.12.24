@@ -1,0 +1,49 @@
+.wrap{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(98, 218, 132);
+} 
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0 30px;
+}
+
+.menu{
+    display: flex;
+    gap: 20px;
+
+    a{
+        color: black;
+        text-transform: none;
+    }
+}
+
+.logo{
+
+    text-transform: none;
+    font-size: 32px;
+    color: black;
+    font-weight: 800;
+}
+
+.search{
+    max-width: 500px;
+    width: 100%;
+    padding: 12px;
+    padding-left: 52px;
+    border: none;
+    background-color: #F0f0f0;
+    border-radius: 52px;
+    background-image: url(/search-icon.svg);
+    background-position: 20px;
+    background-repeat: no-repeat;
+}
+
+.box{
+    display: flex;
+    gap: 15px;
+}
